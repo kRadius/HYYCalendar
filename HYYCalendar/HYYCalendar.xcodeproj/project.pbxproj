@@ -24,7 +24,7 @@
 		855730F41DEC205E00D0200B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 855730F31DEC205E00D0200B /* UIView+Frame.m */; };
 		855730F71DEC212D00D0200B /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 855730F61DEC212D00D0200B /* UIImage+Utility.m */; };
 		855730FA1DEC322D00D0200B /* HYYCalendar+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 855730F91DEC322D00D0200B /* HYYCalendar+Helper.m */; };
-		855730FE1DEC6B2000D0200B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 855730FD1DEC6B2000D0200B /* demo.gif */; };
+		855731001DEC6F0C00D0200B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 855730FF1DEC6F0C00D0200B /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,7 @@
 		855730F61DEC212D00D0200B /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 		855730F81DEC322D00D0200B /* HYYCalendar+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HYYCalendar+Helper.h"; sourceTree = "<group>"; };
 		855730F91DEC322D00D0200B /* HYYCalendar+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HYYCalendar+Helper.m"; sourceTree = "<group>"; };
-		855730FD1DEC6B2000D0200B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		855730FF1DEC6F0C00D0200B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		855730C21DEC1DC600D0200B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				855730FD1DEC6B2000D0200B /* demo.gif */,
+				855730FF1DEC6F0C00D0200B /* demo.gif */,
 				855730C51DEC1DC600D0200B /* AppDelegate.h */,
 				855730C61DEC1DC600D0200B /* AppDelegate.m */,
 				855730CB1DEC1DC600D0200B /* Main.storyboard */,
@@ -204,9 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				855730D21DEC1DC600D0200B /* LaunchScreen.storyboard in Resources */,
+				855731001DEC6F0C00D0200B /* demo.gif in Resources */,
 				855730CF1DEC1DC600D0200B /* Assets.xcassets in Resources */,
 				855730CD1DEC1DC600D0200B /* Main.storyboard in Resources */,
-				855730FE1DEC6B2000D0200B /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
