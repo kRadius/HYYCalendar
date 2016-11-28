@@ -1,8 +1,8 @@
 ## HYYCalendar
 一个简单易用的日期的选择的控件，支持日历选择和Picker选择两种方式。支持iOS 6+
 
-## <a id="效果图"></a>效果图
-<img src="https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif" width="375"> 
+##效果图
+![效果图](https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif)
 
 ##用法
 ```objc
@@ -12,9 +12,9 @@
     
 ```objc
 HYYCalendar *calendar = [[HYYCalendar alloc] initWithFrame:self.navigationController.view.bounds number:self.number unit:self.unit type:HYYCalendarTypeCollection];
-    calendar.delegate = self;
-    [self.navigationController.view addSubview:calendar];
-    [calendar show];
+calendar.delegate = self;
+[self.navigationController.view addSubview:calendar];
+[calendar show];
 ```
 
 
@@ -24,7 +24,6 @@ HYYCalendar *calendar = [[HYYCalendar alloc] initWithFrame:self.navigationContro
     self.number = number;
     self.unit = unit;
     NSString *dateString = [[NSString stringWithFormat:@"%ld%@后", number, [calendar unitString]] stringByAppendingFormat:@"（%@）", [date dateStringWithFormat:@"yyyy-MM-dd"]];
-    
     self.selectedDateLabel.text = dateString;
 }
 
