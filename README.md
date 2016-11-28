@@ -3,6 +3,7 @@
 
 ##效果图
 ![效果图](https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif =375)
+<img src="http://7xpoeq.com1.z0.glb.clouddn.com/demo.gif" alt="效果图" width="375">
 
 ##用法
 ```objc
