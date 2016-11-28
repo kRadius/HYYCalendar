@@ -2,9 +2,9 @@
 一个简单易用的日期的选择的控件，支持日历选择和Picker选择两种方式。支持iOS 6+
 
 ##效果图
-![效果图](https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif =375)
-<img src="http://7xpoeq.com1.z0.glb.clouddn.com/demo.gif" alt="效果图" width="375">
-
+![效果图](https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif =375x768)
+<img src="http://7xpoeq.com1.z0.glb.clouddn.com/demo.gif" alt="效果图" width="375"/>
+<img src="https://github.com/kRadius/HYYCalendar/blob/master/HYYCalendar/HYYCalendar/demo.gif" alt="效果图" width="375"/>
 ##用法
 ```objc
 #import "HYYCalendar.h"
