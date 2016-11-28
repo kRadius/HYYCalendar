@@ -38,7 +38,7 @@
     [calendar show];
 }
 
-#pragma mark - HYYCalendar
+#pragma mark - HYYCalendarDelegate
 - (void)calendar:(HYYCalendar *)calendar didSelectDate:(NSDate *)date number:(NSUInteger)number unit:(HYYCalendarUnit)unit {
     self.number = number;
     self.unit = unit;
