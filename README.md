@@ -28,8 +28,9 @@ calendar.delegate = self;
 }
 
 ```
+## TODO
+- 不可以切换横屏
 
-
-#### License
+## License
 
 MIT - Copyright (c) 2016 kRadius

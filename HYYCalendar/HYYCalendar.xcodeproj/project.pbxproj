@@ -387,6 +387,7 @@
 				855730D81DEC1DC600D0200B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
