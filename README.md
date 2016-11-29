@@ -23,7 +23,7 @@ calendar.delegate = self;
 - (void)calendar:(HYYCalendar *)calendar didSelectDate:(NSDate *)date number:(NSUInteger)number unit:(HYYCalendarUnit)unit {
     self.number = number;
     self.unit = unit;
-    NSString *dateString = [[NSString stringWithFormat:@"%ld%@后", number, [calendar unitString]] stringByAppendingFormat:@"（%@）", [date dateStringWithFormat:@"yyyy-MM-dd"]];
+    NSString *dateString = [[NSString stringWithFormat:@"%ld%@后", number, [calendar unitStringWithUnit:unit]] stringByAppendingFormat:@"（%@）", [date dateStringWithFormat:@"yyyy-MM-dd"]];
     self.selectedDateLabel.text = dateString;
 }
 
