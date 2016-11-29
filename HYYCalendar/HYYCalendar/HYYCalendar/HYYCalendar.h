@@ -39,8 +39,7 @@ typedef NS_ENUM(NSUInteger, HYYCalendarUnit){
 @interface HYYCalendar : UIView
 
 @property (assign, nonatomic, readonly) HYYCalendarType calendarType;
-@property (assign, nonatomic, readonly) HYYCalendarUnit unit;
-@property (assign, nonatomic, readonly) NSUInteger number;
+
 @property (weak, nonatomic) id<HYYCalendarDelegate> delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame;

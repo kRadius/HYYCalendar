@@ -10,6 +10,6 @@
 
 @interface HYYCalendar (Helper)
 
-- (NSString *)unitString;
+- (NSString *)unitStringWithUnit:(HYYCalendarUnit)unit;
 
 @end

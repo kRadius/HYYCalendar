@@ -10,16 +10,16 @@
 
 @implementation HYYCalendar (Helper)
 
-- (NSString *)unitString {
-    NSString *unitString;
-    if (self.unit == HYYCalendarUnitDay) {
-        unitString = @"天";
-    } else if (self.unit == HYYCalendarUnitWeek) {
-        unitString = @"周";
-    } else if (self.unit == HYYCalendarUnitMonth) {
-        unitString = @"月";
+- (NSString *)unitStringWithUnit:(HYYCalendarUnit)unit {
+    
+    if (unit == HYYCalendarUnitDay) {
+       return @"天";
+    } else if (unit == HYYCalendarUnitWeek) {
+        return @"周";
+    } else if (unit == HYYCalendarUnitMonth) {
+        return @"月";
     }
-    return unitString;
+    return nil;
 }
 
 @end

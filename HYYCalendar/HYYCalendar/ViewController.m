@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.unit = HYYCalendarUnitDay;
-    self.number = 12;
+    self.number = 1;
 }
 
 #pragma mark - Action
@@ -36,13 +36,15 @@
     calendar.delegate = self;
     [self.navigationController.view addSubview:calendar];
     [calendar show];
+    
 }
 
 #pragma mark - HYYCalendarDelegate
 - (void)calendar:(HYYCalendar *)calendar didSelectDate:(NSDate *)date number:(NSUInteger)number unit:(HYYCalendarUnit)unit {
     self.number = number;
     self.unit = unit;
-    NSString *dateString = [[NSString stringWithFormat:@"%ld%@后", number, [calendar unitString]] stringByAppendingFormat:@"（%@）", [date dateStringWithFormat:@"yyyy-MM-dd"]];
+    
+    NSString *dateString = [[NSString stringWithFormat:@"%ld%@后", number, [calendar unitStringWithUnit:unit]] stringByAppendingFormat:@"（%@）", [date dateStringWithFormat:@"yyyy-MM-dd"]];
     
     self.selectedDateLabel.text = dateString;
 }

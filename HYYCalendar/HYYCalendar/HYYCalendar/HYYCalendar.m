@@ -26,6 +26,9 @@
 
 @property (strong, nonatomic) NSDate *selectedDate;
 
+@property (assign, nonatomic) HYYCalendarUnit unit;
+@property (assign, nonatomic) NSUInteger number;
+    
 //view
 @property (strong, nonatomic) HYYCalendarCollectionView *calendarView;
 @property (strong, nonatomic) HYYCalendarPickerView *pickerView;
