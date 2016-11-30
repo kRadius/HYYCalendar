@@ -29,7 +29,6 @@ calendar.delegate = self;
 
 ```
 ## TODO
-- 不可以切换横屏
 - 国际化
 
 ## License
